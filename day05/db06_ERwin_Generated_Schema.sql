@@ -29,7 +29,7 @@ ADD PRIMARY KEY (custid);
 
 
 
-CREATE TABLE orders
+CREATE TABLE Orders
 (
 	orderid              INTEGER NOT NULL,
 	orderdate            DATE NULL,
@@ -40,7 +40,7 @@ CREATE TABLE orders
 
 
 
-ALTER TABLE orders
+ALTER TABLE Orders
 ADD PRIMARY KEY (orderid);
 
 
@@ -64,10 +64,10 @@ ADD FOREIGN KEY R_1 (pubname) REFERENCES publisher (pubname);
 
 
 
-ALTER TABLE orders
+ALTER TABLE Orders
 ADD FOREIGN KEY R_5 (bookid) REFERENCES book (bookid);
 
 
 
-ALTER TABLE orders
+ALTER TABLE Orders
 ADD FOREIGN KEY R_6 (custid) REFERENCES customer (custid);
