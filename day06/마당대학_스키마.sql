@@ -118,7 +118,6 @@ CREATE TABLE IF NOT EXISTS `madanguniv`.`work_dept` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-
 -- -----------------------------------------------------
 -- Table `madanguniv`.`work_in`
 -- -----------------------------------------------------
