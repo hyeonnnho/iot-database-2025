@@ -44,6 +44,11 @@ IoT 개발자 데이터베이스 저장소
         ```shell
         > docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=12345 -d -p 3306:3306 mysql:latest
         ```
+
+        - 컴퓨터 재시작 후 도커 컨테이너 자동시작 옵션 명령어
+        ```shell
+        > docker update --restart=always mysql-container
+        ```
     5. 컨테이너 확인
         ```shell
         > docker ps -a
@@ -365,6 +370,11 @@ IoT 개발자 데이터베이스 저장소
 
 
 ## 7일차
+- 인덱스 실습 : [SQL](./day07/db01_인덱스연습.sql)
+    - 500만건 조회 시 price로 검색
+        - 인덱스가 없으면 0.67초 소요
+        - 인덱스를 걸면 0.06초 소요
+
 - 데이터베이스 관리와 보안
 - 실무실습
 - Python GUI로 DB연동 앱 개발
