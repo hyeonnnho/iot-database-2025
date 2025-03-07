@@ -395,5 +395,13 @@ IoT 개발자 데이터베이스 저장소
         - 요구사항으로 개체와 관계를 정립. 개체에 속하는 속성들, 식별자 결정
         - 테이블 명세서 작성(엑셀, 워드)
         - ERwin | Workbench 모델링에서 ERD 작성
+        - 생성스크립트 : [SQL](./day08/db03_병원업무관리_스키마.sql)
+        - Workbench에서 DB생성 후 위 스크립트 실행. DB구현
+
+    <img src="./image/db006.png" width="800">
+
+    - SQL 연습
+
 ## 9일차
+- tkinter DB연동 GUI앱 개발
 - 코딩테스트
